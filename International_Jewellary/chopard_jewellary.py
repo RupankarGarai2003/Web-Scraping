@@ -1,3 +1,6 @@
+## Incompleted , Any help would be much appriciated
+- Please go through the code once to understand the process before continuing
+
 # -------------------------------------------------------------------------------------------------------------
 import pandas as pd
 from selenium import webdriver
