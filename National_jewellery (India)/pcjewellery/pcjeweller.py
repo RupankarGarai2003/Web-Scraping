@@ -207,14 +207,15 @@ data = [
 ]
 
 # Preferred location for saving the CSV file
-csv_file_location = "D:\\pcjewellery\\pcjeweller_data.csv"   #you can change your path location
+csv_file_path = r'D:\\Web Scraping\National_jewellery (India)\\CSV_files\\pcjeweller.csv'
+ #you can change your path location
 
 # Writing data to the CSV file
-with open(csv_file_location, mode='w', newline='') as file:
+with open(csv_file_path, mode='w', newline='') as file:
     writer = csv.writer(file)
     writer.writerows(data)
 
-print("Data saved to", csv_file_location)
+print("Data saved to", csv_file_path)
 
 
 driver.quit()  # Quit the WebDriver session

@@ -62,7 +62,8 @@ for keyword in keywords:
     Time_Back()
 
 # Write data to CSV file
-csv_file_path = 'D:\\Web Scraping\\pngJewellers\\output.csv' #you can change your path location
+csv_file_path = r'D:\\Web Scraping\National_jewellery (India)\\CSV_files\\pngjewellers.csv'
+ #you can change your path location
 with open(csv_file_path, 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(['Keyword', 'Total Item Count'])
